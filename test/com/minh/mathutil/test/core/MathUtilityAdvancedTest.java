@@ -51,7 +51,7 @@ public class MathUtilityAdvancedTest {
     //data các cột vào 2 biến tương ứng!!!
     @Parameterized.Parameter(value = 0)
     public int n;
-    
+                                                        
     @Parameterized.Parameter(value = 1)
     public long expected;
     
@@ -60,4 +60,5 @@ public class MathUtilityAdvancedTest {
     public void testFactorialGivenRightArugmentRunsWell(){
         assertEquals(expected, MathUtility.getFactorial(n));
     }
+    
 }
